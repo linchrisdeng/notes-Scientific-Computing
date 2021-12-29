@@ -1,1 +1,1 @@
-# notes-Scientific_Computing
+# notes-Scientific-Computing
