@@ -1,0 +1,75 @@
+# Site information
+site_name: Scientific Computing
+
+# Configuration
+theme:
+  name: material
+  logo: assets/images/favicon.png
+  palette: 
+    - scheme: default
+      # primary: deep orange
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate 
+      # primary: deep orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    # - navigation.sections
+    - navigation.indexes
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+
+# Extension
+plugins:
+  - git-revision-date
+  - minify:
+      minify_html: true
+  - tags:
+      tags_file: tags.md
+
+
+markdown_extensions:
+  - meta
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+# Naviation
+nav:
+  - 'Overview': index.md
+  - 'Basics':
+    - Section_1/index.md
+    - 'Vector': Section_1/vector.md
+    - 'Matrix': Section_1/matrix.md
+    - 'Multiplication': Section_1/inversion.md
+  - 'Linear Algebra':
+    - Section_2/index.md
+  - 'Differential Calculus':
+    - Section_3/index.md
+  - 'Fast Fourier Transform':
+    - Section_4/index.md
+  - 'Data Fitting & Optimization':
+    - Section_5/index.md
+
+
+# Copyright
+copyright: Copyright &copy; 2021 - 2022 Lin Deng
+
+# Extra information
+extra:
+  generator: false
+  alternate:
+    - name: 中文
+      link: /cn/
+      lang: cn
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/linchrisdeng
+      name: GitHub
+
