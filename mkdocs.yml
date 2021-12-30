@@ -4,7 +4,8 @@ site_name: Scientific Computing
 # Configuration
 theme:
   name: material
-  logo: assets/images/favicon.png
+  favicon: assets/images/favicon3.svg
+  logo: assets/images/favicon3.svg
   palette: 
     - scheme: default
       # primary: deep orange
@@ -26,19 +27,21 @@ theme:
     - toc.integrate
 
 # Extension
-plugins:
-  - git-revision-date
-  - minify:
-      minify_html: true
-  - tags:
-      tags_file: tags.md
-
 
 markdown_extensions:
+  - abbr
+  - pymdownx.snippets
   - meta
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - footnotes
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+
 
 # Naviation
 nav:
