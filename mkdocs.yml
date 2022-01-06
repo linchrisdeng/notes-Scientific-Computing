@@ -1,10 +1,10 @@
 # Site information
-site_name: Scientific Computing
+site_name: Scientific Computing & Numerical Analysis
 
 # Configuration
 theme:
   name: material
-  favicon: assets/images/favicon3.svg
+  favicon: assets/images/favicon1.svg
   logo: assets/images/favicon3.svg
   palette: 
     - scheme: default
@@ -41,16 +41,23 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true 
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.arithmatex:
+      generic: true
 
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 # Naviation
 nav:
   - 'Overview': index.md
-  - 'Basics':
+  - 'Part 1: Basics':
     - Section_1/index.md
-    - 'Vector': Section_1/vector.md
-    - 'Matrix': Section_1/matrix.md
-    - 'Multiplication': Section_1/inversion.md
+    - 'Algebra with Matrix': Section_1/algebra_with_matrix.md
   - 'Linear Algebra':
     - Section_2/index.md
   - 'Differential Calculus':
@@ -73,6 +80,6 @@ extra:
       lang: cn
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/linchrisdeng
+      link: https://github.com/linchrisdeng/notes-Scientific-Computing
       name: GitHub
 
