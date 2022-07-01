@@ -5,7 +5,7 @@ site_name: Scientific Computing & Numerical Analysis
 theme:
   name: material
   favicon: assets/images/favicon1.svg
-  logo: assets/images/favicon3.svg
+  logo: assets/images/favicon2.svg
   palette: 
     - scheme: default
       # primary: deep orange
@@ -66,6 +66,8 @@ nav:
     - Section_4/index.md
   - 'Data Fitting & Optimization':
     - Section_5/index.md
+  - 'Copula Model':
+    - Section_6/index.md
 
 
 # Copyright
