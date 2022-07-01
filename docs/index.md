@@ -24,7 +24,7 @@ The material is mainly referenced to the book DDMSC[^1] and Project LAFF[^2]. Co
 
 
 
-!!! check "TOC" 
+<!-- !!! check "TOC" 
     - [ ] ** [Part 1: Basics](Section_1/index.md) ** 
         - [ ] [Algebra with Matrix](Section_1/algebra_with_matrix.md)
             - [x] 1.1 Vector and Matrix
@@ -40,10 +40,10 @@ The material is mainly referenced to the book DDMSC[^1] and Project LAFF[^2]. Co
             - [ ] Gradients of vector and matrix
         - [ ] Gradient-Free Optimization
     - [ ] ** Part 3: Differential Equations **
+ -->
 
-
-<!-- https://tree.nathanfriend.io/ -->
-<!-- ```
+https://tree.nathanfriend.io/
+```
 .
 ├── Home
 ├── Part1: Basics
@@ -61,7 +61,7 @@ The material is mainly referenced to the book DDMSC[^1] and Project LAFF[^2]. Co
 │   │   └── 4.1. Gradients of vector and matrix
 │   └── First-Order Newton's Method
 └── Part 3: Differential Equations
-``` -->
+```
 
 !!! note inline end
     Python and Matlab code will be supplied if I have time
