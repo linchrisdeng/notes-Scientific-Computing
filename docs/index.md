@@ -15,7 +15,7 @@ The material is mainly referenced to the book DDMSC[^1] and Project LAFF[^2]. Co
     The content will be constantly updated and adjusted over time. 
     
     √ sign labels complete sections. 
-
+    https://tree.nathanfriend.io/
     ** <p> Last Update: <span id="datetime"> </span></p>
     <script>
     var dt = new Date();
@@ -42,7 +42,6 @@ The material is mainly referenced to the book DDMSC[^1] and Project LAFF[^2]. Co
     - [ ] ** Part 3: Differential Equations **
  -->
 
-https://tree.nathanfriend.io/
 ```
 .
 ├── Home
